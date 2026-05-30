@@ -1,7 +1,15 @@
-import Image from "next/image";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import Courses from "@/components/Courses";
+import Placements from "@/components/Placements";
 
 export default function Home() {
   return (
-    <h1>Apinet Education 2.0</h1>
+    <main className="min-h-screen">
+      <Navbar />
+      <Hero />
+      <Placements />
+      <Courses />
+    </main>
   );
 }
